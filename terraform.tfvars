@@ -1,0 +1,9 @@
+region               = "eu-central-1"
+cidr                 = "10.0.0.0/16"
+az                  = "eu-central-1a"
+ami                 = "ami-0136e0e4ae41f4fa2"
+key_name             = "developer"
+//private_subnet      = "10.0.1.0/24"
+public_subnet       = "10.0.101.0/24"
+instance_type        = "t2.micro"
+allowed_ports = [ "80", "443", "22"]
